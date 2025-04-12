@@ -3,7 +3,6 @@ import React from 'react'
 export default function ExperienceList() {
   return (
     <section className="mb-8">
-      <h2 className="text-2xl font-semibold mb-2 text-gray-800 dark:text-white">Experience Highlights</h2>
       <div className="space-y-4 text-gray-700 dark:text-gray-300">
         <div>
           <h3 className="font-bold">Lead Backend Engineer @ DMM.com Group</h3>

@@ -8,7 +8,7 @@ export default function Portfolio() {
       <div className="max-w-4xl mx-auto space-y-16">
         <header>
           <h1 className="text-4xl font-bold">Kazuhiro Watanabe</h1>
-          <p className="mt-2 text-lg">Full Stack Engineer with a passion for clean code and scalable systems.</p>
+          <p className="mt-2 text-lg">Backend Engineer with a passion for clean code and scalable systems.</p>
         </header>
 
         <section>
