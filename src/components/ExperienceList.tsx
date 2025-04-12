@@ -1,22 +1,32 @@
-import React from 'react'
-
 export default function ExperienceList() {
   return (
-    <ul className="space-y-4 text-gray-200">
+    <ul className="space-y-6 text-gray-200">
       <li>
-        <strong>Lead Backend Engineer @ DMM.com Group</strong><br />
+        <strong className="text-lg">Lead Backend Engineer @ DMM.com Group</strong><br />
         <em>Oct 2023 – Present</em><br />
-        Upgraded AWS Aurora for a 10,000 RPS service with zero downtime. Implemented asynchronous batch processing using SQS and Kubernetes autoscaling.
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Handled zero-downtime Aurora upgrade (v2 → v3) for a service handling 10,000+ RPS.</li>
+          <li>Reduced batch processing time from 2 hours to 30 minutes with async SQS-based architecture and Kubernetes autoscaling.</li>
+          <li>Re-architecting legacy code into microservices for scalability and clarity.</li>
+        </ul>
       </li>
       <li>
-        <strong>Senior Backend Engineer @ Kawazu Sakura</strong><br />
+        <strong className="text-lg">Senior Backend Engineer @ Kawazu Sakura</strong><br />
         <em>Mar 2022 – Sep 2023</em><br />
-        Architected a microservices-based crypto exchange system including matching engine and account services.
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Led backend architecture for a cryptocurrency exchange including matching engine and trader balance services.</li>
+          <li>Collaborated with global team across smart contracts, frontend, and DevOps to launch MVP.</li>
+          <li>Mentored and managed a distributed team of 4 engineers.</li>
+        </ul>
       </li>
       <li>
-        <strong>Senior .NET Developer @ Blue Planet-Works</strong><br />
+        <strong className="text-lg">Senior .NET Developer @ Blue Planet-Works</strong><br />
         <em>Nov 2020 – Feb 2022</em><br />
-        Developed a cybersecurity platform for 15,000+ companies. Led monolith to microservice transformation, and implemented CI/CD from scratch.
+        <ul className="list-disc list-inside mt-2 space-y-1">
+          <li>Developed cybersecurity platform for 15,000+ companies.</li>
+          <li>Led migration from monolith to microservices, with Azure DevOps CI/CD pipeline from scratch.</li>
+          <li>Improved test coverage using Jasmine & Karma for frontend testing.</li>
+        </ul>
       </li>
     </ul>
   )
