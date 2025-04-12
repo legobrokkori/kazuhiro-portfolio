@@ -13,10 +13,9 @@ It serves as a showcase of my experience as a Backend Engineer and is mainly use
 
 ## 🛠 Tech Stack
 
-- ⚛️ React 18
-- ⚡ Vite
-- 🎨 Tailwind CSS (with Dark Mode)
-- ☁️ Deployed on Vercel
+- ⚛️ React (with Hooks + Vite)
+- ⚡ Vite (blazing-fast dev experience)
+- 🎨 Tailwind CSS (utility-first, dark mode enabled)
 
 ---
 
