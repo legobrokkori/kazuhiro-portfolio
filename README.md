@@ -1,30 +1,18 @@
-# 👋 Kazuhiro Watanabe - Portfolio
+# Kazuhiro Watanabe - Portfolio
 
-This is my personal developer portfolio built with [Vite](https://vitejs.dev/) + [React](https://react.dev/) + [Tailwind CSS](https://tailwindcss.com/).  
-It serves as a showcase of my experience as a Backend Engineer and is mainly used for job applications and networking.
+Personal portfolio website showcasing my experience as a Lead Backend Engineer specializing in high-scale systems and performance optimization.
 
----
+**Live:** https://kazuhiro-portfolio.vercel.app
 
-## 🌐 Live Site
+## Tech Stack
 
-👉 [https://kazuhiro-portfolio.vercel.app](https://kazuhiro-portfolio.vercel.app)
+- React 19 + TypeScript
+- Vite 7
+- Tailwind CSS 4
 
----
-
-## 🛠 Tech Stack
-
-- ⚛️ React (with Hooks + Vite)
-- ⚡ Vite (blazing-fast dev experience)
-- 🎨 Tailwind CSS (utility-first, dark mode enabled)
-
----
-
-## 🚀 Getting Started
-
-To run locally:
+## Development
 
 ```bash
-git clone https://github.com/legobrokkori/kazuhiro-portfolio.git
-cd kazuhiro-portfolio
 npm install
-npm run dev
+npm run dev     # http://localhost:5173
+npm run build   # Production build

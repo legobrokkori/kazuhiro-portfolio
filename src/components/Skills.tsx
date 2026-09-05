@@ -1,11 +1,26 @@
 export default function Skills() {
   return (
-    <ul className="list-disc list-inside space-y-1 text-gray-200">
-      <li><strong>Languages:</strong> C#, Golang, Java, JavaScript, TypeScript, SQL</li>
-      <li><strong>Frameworks:</strong> .NET Core, EF Core, Spring, Angular, Gin, Node.js</li>
-      <li><strong>Cloud & Infra:</strong> AWS, Azure, Docker, Kubernetes</li>
-      <li><strong>Architecture:</strong> Microservices, REST APIs, MVC/MVVM</li>
-      <li><strong>CI/CD & Tools:</strong> GitLab, GitHub Actions, Azure DevOps</li>
-    </ul>
+    <div className="space-y-3 text-gray-100">
+      <div>
+        <span className="font-bold text-sky-400">Languages:</span>
+        <span className="ml-2 text-sm">Go, C#, .NET, Java, TypeScript, Node.js, SQL</span>
+      </div>
+      <div>
+        <span className="font-bold text-sky-400">Cloud & Infrastructure:</span>
+        <span className="ml-2 text-sm">AWS (Aurora, SQS, DynamoDB), Azure, Kubernetes, Docker</span>
+      </div>
+      <div>
+        <span className="font-bold text-sky-400">Architecture & Design:</span>
+        <span className="ml-2 text-sm">Microservices, Domain-Driven Design, REST APIs, GraphQL, Event-Driven Architecture</span>
+      </div>
+      <div>
+        <span className="font-bold text-sky-400">Data & Messaging:</span>
+        <span className="ml-2 text-sm">MySQL, PostgreSQL, Redis, Kafka, SQS</span>
+      </div>
+      <div>
+        <span className="font-bold text-sky-400">DevOps & Observability:</span>
+        <span className="ml-2 text-sm">CI/CD, GitLab, SLO/SLI, Monitoring, Performance Optimization</span>
+      </div>
+    </div>
   )
 }
